@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiệp Mời Lễ Tốt Nghiệp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&family=Great+Vibes&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="bg-animation">
+        <div class="bg-particle"></div>
+        <div class="bg-particle"></div>
+        <div class="bg-particle"></div>
+        <div class="bg-particle"></div>
+        <div class="bg-particle"></div>
+    </div>
+    
+    <div class="envelope-container">
+        <div class="envelope">
+            <div class="envelope-flap"></div>
+            <div class="envelope-pocket">
+                <div class="glowing-line"></div>
+            </div>
+            <div class="envelope-seal">
+                <div class="seal-icon"><i class="fas fa-graduation-cap"></i></div>
+            </div>
+        </div>
+        <p class="envelope-message">Nhấp để mở thiệp</p>
+    </div>
+
+    <div class="invitation-container">
+        <div class="invitation">
+            <div class="invitation-header">
+                <div class="decoration"></div>
+                <div class="academy-emblem">
+                    <div class="emblem-circle">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                </div>
+                <div class="header-text">
+                    <h3 class="ceremony-text">Lễ Tốt Nghiệp</h3>
+                    <h1 class="invitation-title">Thiệp Mời</h1>
+                    <div class="year-ribbon">
+                        <span id="yearDisplay">2025</span>
+                    </div>
+                </div>
+                <div class="corner-decoration top-left"></div>
+                <div class="corner-decoration top-right"></div>
+            </div>
+            
+            <div class="invitation-body">
+                <div class="sparkle sparkle-1"></div>
+                <div class="sparkle sparkle-2"></div>
+                <div class="sparkle sparkle-3"></div>
+                
+                <h2 class="elegant-heading">Trân trọng kính mời</h2>
+                
+                <p class="invitation-text">
+                    Quý vị đến tham dự buổi lễ tốt nghiệp của:
+                </p>
+                
+                <div class="graduate-spotlight">
+                    <div class="spotlight-effect"></div>
+                    <h2 class="graduate-name" id="graduateName">Lê Việt Thắng</h2>
+                </div>
+                
+                <div class="elegant-divider">
+                    <span class="divider-icon"><i class="fas fa-scroll"></i></span>
+                </div>
+                
+                <div class="event-details">
+                    <div class="detail-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <div class="detail-content">
+                            <h4>Thời gian</h4>
+                            <p id="eventTime">13:30, Thứ 6, ngày 06 tháng 06 năm 2025</p>
+                        </div>
+                    </div>
+                    
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="detail-content">
+                            <h4>Địa điểm</h4>
+                            <p id="eventLocation">Trung tâm sinh viên, Trường Đại học CNTT và TT Việt - Hàn</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="honor-message">
+                    Rất vui được đón tiếp quý vị tại buổi lễ tốt nghiệp <3.
+                </p>
+                
+                <div class="signature">
+                    <p>Trân trọng,</p>
+                    <p class="signature-name" id="hostName">Lê Việt Thắng</p>
+                </div>
+                
+                <div class="invitation-footer">
+                    <p><i class="fas fa-phone"></i> <span id="contactPhone">0377 196 605</span></p>
+                </div>
+                
+                <div class="corner-decoration bottom-left"></div>
+                <div class="corner-decoration bottom-right"></div>
+            </div>
+        </div>
+        
+        <button class="back-button"><i class="fas fa-arrow-left"></i> Quay lại</button>
+    </div>
+
+    <div class="customize-panel" style="display: none;">
+        <div class="panel-toggle">
+            <i class="fas fa-cog"></i>
+            <span>Tùy chỉnh thiệp</span>
+        </div>
+        
+        <div class="panel-content">
+            <h3>Tùy chỉnh thiệp mời</h3>
+            
+            <div class="form-group">
+                <label for="inputName">Tên người tốt nghiệp:</label>
+                <input type="text" id="inputName" placeholder="Nguyễn Văn A">
+            </div>
+            <div class="form-group">
+                <label for="inputTime">Thời gian:</label>
+                <input type="text" id="inputTime" placeholder="9:00, Ngày 15 tháng 6 năm 2025">
+            </div>
+            <div class="form-group">
+                <label for="inputLocation">Địa điểm:</label>
+                <input type="text" id="inputLocation" placeholder="Hội trường A, Trường Đại học ABC">
+            </div>
+            <div class="form-group">
+                <label for="inputHost">Người gửi thiệp:</label>
+                <input type="text" id="inputHost" placeholder="Gia đình Nguyễn Văn A">
+            </div>
+            <div class="form-group">
+                <label for="inputRSVP">Hạn phản hồi:</label>
+                <input type="text" id="inputRSVP" placeholder="01/06/2025">
+            </div>
+            <div class="form-group">
+                <label for="inputPhone">Số điện thoại liên hệ:</label>
+                <input type="text" id="inputPhone" placeholder="0123 456 789">
+            </div>
+            <div class="form-group">
+                <label for="yearInput">Năm tốt nghiệp:</label>
+                <input type="text" id="yearInput" placeholder="2025">
+            </div>
+            <div class="form-group color-group">
+                <label>Phối màu:</label>
+                <div class="color-options">
+                    <div class="color-option" data-theme="royal" title="Hoàng gia"></div>
+                    <div class="color-option" data-theme="elegant" title="Thanh lịch"></div>
+                    <div class="color-option" data-theme="modern" title="Hiện đại"></div>
+                    <div class="color-option" data-theme="classic" title="Cổ điển"></div>
+                </div>
+            </div>
+            
+            <div class="button-group">
+                <button id="updateCard" class="btn-primary">Cập nhật thiệp</button>
+                <button id="printCard" class="btn-secondary"><i class="fas fa-print"></i> In thiệp</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

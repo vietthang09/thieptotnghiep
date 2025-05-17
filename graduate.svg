@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="300px" viewBox="0 0 200 300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Graduation cap -->
+        <path d="M100,30 L150,50 L100,70 L50,50 L100,30 Z" fill="#333333"/>
+        <path d="M100,70 L100,80 L95,77 L95,67 L100,70 Z" fill="#333333"/>
+        <path d="M95,67 L95,77 L75,67 L75,57 L95,67 Z" fill="#333333"/>
+        <circle cx="100" cy="50" r="3" fill="#ffd700"/>
+        
+        <!-- Gown -->
+        <path d="M70,80 L130,80 L140,270 L120,270 L100,180 L80,270 L60,270 L70,80 Z" fill="#ffffff"/>
+        
+        <!-- Head -->
+        <circle cx="100" cy="50" r="25" fill="#ffe0bd"/>
+        
+        <!-- Face -->
+        <circle cx="90" cy="45" r="2" fill="#333333"/> <!-- left eye -->
+        <circle cx="110" cy="45" r="2" fill="#333333"/> <!-- right eye -->
+        <path d="M95,60 Q100,65 105,60" stroke="#333333" stroke-width="1.5" fill="none"/> <!-- smile -->
+        
+        <!-- Tassel -->
+        <path d="M120,50 Q125,45 130,50 Q135,55 140,50" stroke="#ffd700" stroke-width="2" fill="none"/>
+        <circle cx="140" cy="50" r="3" fill="#ffd700"/>
+    </g>
+</svg>
